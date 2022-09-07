@@ -8,5 +8,5 @@ class GenreAdmin(admin.ModelAdmin):
     list_display = ('id', 'name')
 
 
-admin.site.register(Genre)
+admin.site.register(Genre, GenreAdmin)
 admin.site.register(Movie)
