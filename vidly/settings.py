@@ -25,7 +25,7 @@ SECRET_KEY = ')2)mjd$cwka($=cc@=df%4gyqs$+i!d)e1pm3g(rs7(5#i_98m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://evening-hollows-79652.herokuapp.com/']
+ALLOWED_HOSTS = ['evening-hollows-79652.herokuapp.com']
 
 
 # Application definition
