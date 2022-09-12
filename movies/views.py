@@ -17,6 +17,7 @@ def index(request):
 def detail(request, movie_id):
 
     movie = get_list_or_404(Movie, pk=movie_id)
+    # movie.name or movie.id can be done
     return render(request, 'movies/detail.html', {'movie': movie})
 
     # OR.................................
